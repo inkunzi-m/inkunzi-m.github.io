@@ -1,4 +1,7 @@
-General Format
+<h1>General Format</h1>
+
+<b>This is how every event will be structured. When writing a new event, copy and paste this into a .json file before making any changes. </b>
+
 <pre>
 <code>
 {
@@ -17,12 +20,8 @@ General Format
 </code>
 </pre>
 
-<h>This is how every event will be structured.</h>
-
-Name <-> <br>
-    • The title of the event. Displays in bold at the top
-    • Example:
-        "name": "Supply Shortage"
+<h1>Name</h1>
+<p>The title of the event. Displayed in bold at the top of the event\nExample:\n    "name": "Supply Shortage"</p>
 
 Description <-> <br>
 
