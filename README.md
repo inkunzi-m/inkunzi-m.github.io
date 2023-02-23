@@ -1,5 +1,5 @@
 General Format <-> <br>
-    <code> {
+    <pre><code> {
         "name": "",
         "description": "",
         "autofill": [
@@ -14,7 +14,7 @@ General Format <-> <br>
         "effects": {
 
         }
-    } </code>
+    } </code></pre>
 
     <h>This is how every event will be structured.</h>
 
