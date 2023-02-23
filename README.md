@@ -61,7 +61,7 @@
   <tr>
     <th>Examples:</th>
   </tr><tr>
-    <td><pre><code style="background-color"="#666666">"trait": "warlike"</code></pre></td>
+    <td><pre><code style="background-color: #666666">"trait": "warlike"</code></pre></td>
   </tr><tr>
     <td><pre><code>"at_war": "true"</code></pre></td>
   </tr><tr>
