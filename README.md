@@ -59,24 +59,14 @@
 
  <table>
   <tr>
-    <th>Predicate Name</th>
-    <th>Value Type</th>
-    <th>Value Example</th>
+    <th>Predicates</th>
   </tr><tr>
-    <td>trait</td>
-    <td>string</td>
-    <td>"Warlike"</td>
+    <td><pre><code>"trait": "warlike"</code></pre></td>
   </tr><tr>
-    <td>at_war</td>
-    <td>boolean</td>
-    <td>true</td>
+    <td><pre><code>"at_war": "true"</code></pre></td>
   </tr><tr>
-    <td>ruler_condition</td>
-    <td>string</td>
-    <td>"Sick"</td>
+    <td><pre><code>"ruler_condition": "Sick"</code></pre></td>
   </tr><tr>
-    <td>either</td>
-    <td>predicate_list</td>
     <td><pre><code>[
     {"trait": "warlike"},
     {"trait": "isolationist"},
