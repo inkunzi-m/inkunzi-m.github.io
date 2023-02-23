@@ -1,4 +1,4 @@
-General Format <-> <br>
+General Format <->
     <pre><code> {
         "name": "",
         "description": "",
