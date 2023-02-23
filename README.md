@@ -51,48 +51,45 @@ Example:
 ```
 
 <h1>Predicates</h1>
-<p>Things that must be true for this event to be able to trigger.<br>Here's a table showing an example of usage for every predicate:</p>
+<p>Things that must be true for this event to be able to trigger.<br>Here's a code block showing an example of usage for every predicate:</p>
 
- <table>
-  <tr>
-    <th>Examples:</th>
-  </tr><tr>
-    <td><pre><code>"trait": "warlike"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"at_war": "true"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"ruler_condition": "Sick"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"either": [
+```json
+"trait": "Warlike",
+
+"at_war": true,
+
+"ruler_condition": "Sick",
+
+"either": {
     {"trait": "warlike"},
-    {"trait": "isolationist"},
-]</code></pre></td>
-  </tr>
-</table> 
+    {"trait": "isolationist"}
+}
+```
 
 <h1>Effects</h1>
-<p>Things that will happen when the event fires</p>
+<p>Things that will happen when the event fires. <br>Here's a code block showing an example of usage for every predicate:</p>
 
- <table>
-  <tr>
-    <th>Examples:</th>
-  </tr><tr>
-    <td><pre><code>"dummy": "Anything custom/manual goes here"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"add_warsupport": 20.5</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"add_income": 20.5</code></pre></td>
-    <td><pre><code>"add_income": "13%"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"add_legitimacy": 1</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"add_army_upkeep": 20.5</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"set_ruler_condition": "Sick"</code></pre></td>
-  </tr><tr>
-    <td><pre><code>"add_units": {
-        {"Strongmen": 2000},
-        {"Horsemen": 500}
-}</code></pre></td>
-  </tr>
-</table> 
+```json
+"dummy": "Anything custom/manual would go here",
+
+"add_warsupport": 20.5,
+
+"add_income": 20.5,
+"add_income": "13%,
+
+"add_legitimacy": 1,
+
+"add_army_upkeep_cost": "10.3%",
+
+"set_ruler_condition": "Sick",
+
+"add_units": {
+    {"Infantry": 2000},
+    {"Archers": 500}
+}
+
+"add_ruler_stats": {
+    {"Rulership": 1},
+    {"Intrigue": 2}
+}
+```
