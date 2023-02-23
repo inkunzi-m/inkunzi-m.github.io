@@ -1,4 +1,4 @@
-General Format <->
+General Format
     <pre><code> {
         "name": "",
         "description": "",
