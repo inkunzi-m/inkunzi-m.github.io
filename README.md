@@ -55,13 +55,13 @@
 </code></pre>
 
 <h1>Predicates</h1>
-<p>Things that must be true for this event to be able to trigger.<br>List of every predicate:</p>
+<p>Things that must be true for this event to be able to trigger.<br>Here's a table showing an example of usage for every predicate:</p>
 
  <table>
   <tr>
-    <th>Predicates</th>
+    <th>Examples:</th>
   </tr><tr>
-    <td><pre><code>"trait": "warlike"</code></pre></td>
+    <td><pre><code style="background-color"="#666666">"trait": "warlike"</code></pre></td>
   </tr><tr>
     <td><pre><code>"at_war": "true"</code></pre></td>
   </tr><tr>
