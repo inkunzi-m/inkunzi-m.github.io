@@ -54,12 +54,20 @@ Example:
 <p>Things that must be true for this event to be able to trigger.<br>Here's a code block showing an example of usage for every predicate:</p>
 
 ```json
+"name": "Alzha",
+"culture": "Alzhaic",
+"religion": "Bytos",
 "trait": "Warlike",
-
 "at_war": true,
-
 "ruler_condition": "Sick",
-
+"min_ruler_age": 18,
+"max_ruler_age": 60,
+"min_infamy": 10,
+"max_infamy": 20,
+"min_legitimacy": "None",
+"max_legitimacy": "Absolute",
+"min_centralization": "None",
+"max_centralization": "Absolute",
 "either": {
     {"trait": "warlike"},
     {"trait": "isolationist"}
@@ -67,27 +75,27 @@ Example:
 ```
 
 <h1>Effects</h1>
-<p>Things that will happen when the event fires. <br>Here's a code block showing an example of usage for every predicate:</p>
+<p>Things that will happen when the event fires. <br>Here's a code block showing an example of usage for every effect:</p>
 
 ```json
-"dummy": "Anything custom/manual would go here",
-
-"add_warsupport": 20.5,
-
-"add_income": 20.5,
-"add_income": "13%,
-
+"dummy": "Anything custom/manually edited would go here",
+"add_warsupport": 10,
+"add_stability": 10,
+"add_infamy": 10,
+"add_income": 20000,
+"add_income": "15%",
 "add_legitimacy": 1,
-
-"add_army_upkeep_cost": "10.3%",
-
+"add_centralization": -1,
+"add_army_upkeep_cost": "10%",
+"add_revolt_sentiment": "10%",
 "set_ruler_condition": "Sick",
-
+"add_cultural_stability": 0.5,
+"add_religious_strength": 1.0,
+"add_religious_authority": 0.75,
 "add_units": {
     {"Infantry": 2000},
     {"Archers": 500}
 }
-
 "add_ruler_stats": {
     {"Rulership": 1},
     {"Intrigue": 2}
