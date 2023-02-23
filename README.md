@@ -2,8 +2,7 @@
 
 <b>This is how every event will be structured. When writing a new event, copy and paste this into a .json file before making any changes. </b>
 
-<pre>
-<code>
+<pre><code>
 {
     "name": "",
     "description": "",
@@ -17,16 +16,64 @@
 
     }
 }
-</code>
-</pre>
+</code></pre>
 
 <h1>Name</h1>
-<p>The title of the event. Displayed in bold at the top of the event\nExample:\n    "name": "Supply Shortage"</p>
+<p>The title of the event. Displayed in bold at the top of the event<br>Example:</p>
 
-Description <-> <br>
+<pre><code>
+{
+    "name": "Supply Shortage"
+}
+</code></pre>
 
+<h1>Description</h1>
+<p>Flavor text that appears in smaller text.<br>Example:</p>
 
-Predicates <-> <br>
+<pre><code>
+{
+    "description": "Lack of manpower to work the forges has made us unable to create enough supplies to fully equip our armies!"
+}
+</code></pre>
+
+<h1>Image</h1>
+<p>Image that accompanies the event. (Shamelessly ripped from EU4). A list of all the images is available here at <a href="github.com/inkunzi-m/inkunzi-m.github.io/tree/main/events">github.com/inkunzi-m/inkunzi-m.github.io/tree/main/events</a><br>Example:</p>
+
+<pre><code>
+{
+    "image": "EUROPEAN_city_view.png"
+}
+</code></pre>
+
+<h1>Weight</h1>
+<p>How likely the event is to happen (higher number = more likely).<br>Example:</p>
+
+<pre><code>
+{
+    "weight": 30
+}
+</code></pre>
+
+<h1>Predicates</h1>
+<p>Things that must be true for this event to be able to trigger.<br>List of every predicate:</p>
+
+ <table>
+  <tr>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+</table> 
 
     PREDICATE_NAME      VALUE_TYPE      EXAMPLE_VALUE
     ------------------------------------------------------
