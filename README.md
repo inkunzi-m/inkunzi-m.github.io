@@ -101,3 +101,77 @@ Example:
     {"Intrigue": 2}
 }
 ```
+
+<h1>Event Examples</h1>
+
+super_generic.json
+```json
+{
+    "name": "Status Quo",
+    "description": "The land feels still. Every day, the sun rises, and every night, the sun sets. Life is quiet, but isn't that how we always wanted it? There's no better time than now to go outside and smell the roses...",
+    "image": "EUROPEAN_city_view.png",
+
+    "weight": 1,
+    "predicates": {
+
+    },
+    "effects": {
+
+    }
+}
+```
+
+isolationist_bad_1.json
+```json
+{
+    "name": "Looking Inwards",
+    "description": "Lack of effective national fervor has led to both the nobility and general populace becoming completely disinterested in international affairs.",
+    "image": "EUROPEAN_free_city.png",
+
+    "weight": 30,
+    "predicates": {
+        "trait": "isolationist"
+    },
+    "effects": {
+        "add_warsupport": -10
+    }
+}
+```
+
+isolationist_good_1.json
+```json
+{
+    "name": "National Introspection",
+    "description": "Our isolationism has prompted us to pursue a policy of decreasing our foreign involvements and focusing our efforts on national defence and bettering the conditions of our people.",
+    "image": "EUROPEAN_city_view.png",
+
+    "weight": 30,
+    "predicates": {
+        "trait": "isolationist"
+    },
+    "effects": {
+        "dummy": "Joining allies' offensive wars grants -40 war support for this session",
+        "add_units": {
+            "Strongmen": 1000
+        },
+        "add_stability": 5
+    }
+}
+```
+
+ruler_sick_0_start.json
+```json
+{
+    "name": "Ruler falls ill",
+    "description": "The king has been struck by a sudden illness! As would be expected, he has been removed from public view and the finest medical practitioners in the realm have been summoned to help treat him. All that is left to do is wait and hope for the best.",
+    "image": "EUROPEAN_st_peters_church.png",
+
+    "weight": 10,
+    "predicates": {
+        "ruler_condition": "Fine"
+    },
+    "effects": {
+        "set_ruler_condition": "Sick"
+    }
+}
+```
