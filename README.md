@@ -1,5 +1,5 @@
-General Format <->
-    {
+General Format <-> <br>
+    <code> {
         "name": "",
         "description": "",
         "autofill": [
@@ -14,19 +14,19 @@ General Format <->
         "effects": {
 
         }
-    }
+    } </code>
 
-    <h>THIS IS HOW EVERY</h>
+    <h>This is how every event will be structured.</h>
 
-Name <->
+Name <-> <br>
     • The title of the event. Displays in bold at the top
     • Example:
         "name": "Supply Shortage"
 
-Description <->
+Description <-> <br>
 
 
-Predicates <->
+Predicates <-> <br>
 
     PREDICATE_NAME      VALUE_TYPE      EXAMPLE_VALUE
     ------------------------------------------------------
@@ -42,7 +42,7 @@ Predicates <->
 
 
 
-Effects <->
+Effects <-> <br>
 
     EFFECT_NAME             VALUE_TYPE          EXAMPLE_VALUE
     -----------------------------------------------------------'
