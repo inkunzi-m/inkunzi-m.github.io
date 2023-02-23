@@ -1,8 +1,15 @@
+<style>
+    code {
+        color: #ffffff;
+        background-color: #333333;
+    }
+</style>
+
 <h1>General Format</h1>
 
 <b>This is how every event will be structured. When writing a new event, copy and paste this into a .json file before making any changes. </b>
 
-<pre style="color: #ffffff; background-color: #333333"><code>
+<pre><code>
 {
     "name": "",
     "description": "",
