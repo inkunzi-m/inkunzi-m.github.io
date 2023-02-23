@@ -1,22 +1,23 @@
 General Format
-    <pre><code> {
-        "name": "",
-        "description": "",
-        "autofill": [
+<pre>
+<code>
+{
+    "name": "",
+    "description": "",
+    "image": "",
 
-        ],
-        "image": "",
+    "weight": 0,
+    "predicates": {
 
-        "weight": 0,
-        "predicates": {
+    },
+    "effects": {
 
-        },
-        "effects": {
+    }
+}
+</code>
+</pre>
 
-        }
-    } </code></pre>
-
-    <h>This is how every event will be structured.</h>
+<h>This is how every event will be structured.</h>
 
 Name <-> <br>
     • The title of the event. Displays in bold at the top
