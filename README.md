@@ -1,15 +1,8 @@
-<style>
-    code {
-        color: #ffffff;
-        background-color: #333333;
-    }
-</style>
-
 <h1>General Format</h1>
 
-<b>This is how every event will be structured. When writing a new event, copy and paste this into a .json file before making any changes. </b>
+<p>This is how every event will be structured. When writing a new event, copy and paste this into a .json file before making any changes. Personally (this is totally optional), I would recommend using <a href="https://vscode.dev">vscode.dev</a> to make it as it will point out some common formatting errors. Just click "New File" -> "Text File" -> "Select a Language" -> "JSON", and paste the stuff in. </p>
 
-<pre><code>
+```json
 {
     "name": "",
     "description": "",
@@ -23,43 +16,39 @@
 
     }
 }
-</code></pre>
+```
 
 <h1>Name</h1>
-<p>The title of the event. Displayed in bold at the top of the event<br>Example:</p>
+<p>The title of the event. Displayed in bold at the top of the event.</p>
 
-<pre><code>
-{
-    "name": "Supply Shortage"
-}
-</code></pre>
+Example:
+```json
+"name": "Supply Shortage"
+```
 
 <h1>Description</h1>
-<p>Flavor text that appears in smaller text.<br>Example:</p>
+<p>Flavor text that appears in smaller text.</p>
 
-<pre><code>
-{
-    "description": "Lack of manpower to work the forges has made us unable to create enough supplies to fully equip our armies!"
-}
-</code></pre>
+Example:
+```json
+"description": "Lack of manpower to work the forges has made us unable to create enough supplies to fully equip our armies!"
+```
 
 <h1>Image</h1>
-<p>Image that accompanies the event. (Shamelessly ripped from EU4). A list of all the images is available here at <a href="github.com/inkunzi-m/inkunzi-m.github.io/tree/main/events">github.com/inkunzi-m/inkunzi-m.github.io/tree/main/events</a><br>Example:</p>
+<p>Image that accompanies the event. (Shamelessly ripped from EU4). A list of all the images is available here at <a href="/events">.../events</a></p>
 
-<pre><code>
-{
-    "image": "EUROPEAN_city_view.png"
-}
-</code></pre>
+Example:
+```json
+"image": "EUROPEAN_city_view.png"
+```
 
 <h1>Weight</h1>
-<p>How likely the event is to happen (higher number = more likely).<br>Example:</p>
+<p>How likely the event is to happen (higher number = more likely).</p>
 
-<pre><code>
-{
-    "weight": 30
-}
-</code></pre>
+Example:
+```json
+"weight": 30
+```
 
 <h1>Predicates</h1>
 <p>Things that must be true for this event to be able to trigger.<br>Here's a table showing an example of usage for every predicate:</p>
@@ -68,44 +57,42 @@
   <tr>
     <th>Examples:</th>
   </tr><tr>
-    <td><pre><code style="background-color: #666666">"trait": "warlike"</code></pre></td>
+    <td><pre><code>"trait": "warlike"</code></pre></td>
   </tr><tr>
     <td><pre><code>"at_war": "true"</code></pre></td>
   </tr><tr>
     <td><pre><code>"ruler_condition": "Sick"</code></pre></td>
   </tr><tr>
-    <td><pre><code>[
+    <td><pre><code>"either": [
     {"trait": "warlike"},
     {"trait": "isolationist"},
 ]</code></pre></td>
   </tr>
 </table> 
 
-    PREDICATE_NAME      VALUE_TYPE      EXAMPLE_VALUE
-    ------------------------------------------------------
+<h1>Effects</h1>
+<p>Things that will happen when the event fires</p>
 
-    trait               string          "Isolationist"
-    at_war              boolean         true
-    ruler_condition     string          "Sick"
-
-    either:             predicate_list  ([{"trait": "warlike"}, {"trait", "isolationist"}])
-
-
-
-
-
-
-Effects <-> <br>
-
-    EFFECT_NAME             VALUE_TYPE          EXAMPLE_VALUE
-    -----------------------------------------------------------'
-
-    dummy                   string              "you suck (for one session)"
-
-    add_warsupport          decimal             20.5
-    add_income              decimal | percent   20.5 | 13%
-    add_legitimacy          integer             1
-    add_army_upkeep         decimal             20.5
-    add_units               dictionary          {"Strongmen": 2000, "Horsemen": 500}
-
-    set_ruler_condition     string              "Sick"
+ <table>
+  <tr>
+    <th>Examples:</th>
+  </tr><tr>
+    <td><pre><code>"dummy": "Anything custom/manual goes here"</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"add_warsupport": 20.5</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"add_income": 20.5</code></pre></td>
+    <td><pre><code>"add_income": "13%"</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"add_legitimacy": 1</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"add_army_upkeep": 20.5</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"set_ruler_condition": "Sick"</code></pre></td>
+  </tr><tr>
+    <td><pre><code>"add_units": {
+        {"Strongmen": 2000},
+        {"Horsemen": 500}
+}</code></pre></td>
+  </tr>
+</table> 
