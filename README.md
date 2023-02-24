@@ -57,6 +57,7 @@ Example:
 "name": "Alzha",
 "culture": "Alzhaic",
 "religion": "Bytos",
+"government_type": "Republic",
 "trait": "Warlike",
 "at_war": true,
 "ruler_condition": "Sick",
