@@ -1,0 +1,13 @@
+{
+    "name": "How ba-a-a-ad can I be?",
+    "description": "You used this resource so much, you lost it forever",
+    "image": "WON_overextension.png",
+
+    "weight": 5,
+    "predicates": {
+
+    },
+    "effects": {
+
+    }
+}

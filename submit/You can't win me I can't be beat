@@ -1,0 +1,13 @@
+{
+    "name": "You can't win me, I can't be beat.",
+    "description": "A cloaked figure shows up and shows you the true ways of chaos...",
+    "image": "TR_kremlin.png",
+
+    "weight": 7,
+    "predicates": {
+        "trait": "Chaotic"
+    },
+    "effects": {
+        "add_centralization": -2
+    }
+}

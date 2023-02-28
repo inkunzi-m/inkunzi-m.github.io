@@ -1,0 +1,14 @@
+{
+    "name": "Damn Bugs...",
+    "description": "A swarm of locusts come in and eat your crops and take your childern. (There was a lot of locusts)",
+    "image": "MUSLIM_famine.png",
+
+    "weight": 10,
+    "predicates": {
+
+    },
+    "effects": {
+        "dummy": "Lose 1 pop point",
+        "add_stability": -15
+    }
+}
