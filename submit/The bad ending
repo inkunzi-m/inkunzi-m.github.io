@@ -1,0 +1,13 @@
+{
+    "name": "The Bading Ending",
+    "description": "A ending of a speech cancelled a public figure",
+    "image": "EUROPEAN_accusation.png",
+
+    "weight": 30,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": -1
+    }
+}

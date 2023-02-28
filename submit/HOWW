@@ -1,0 +1,14 @@
+
+{
+    "name": "How did we let this happen??",
+    "description": "You let a old homeless man run the nation for 24 hours",
+    "image": "GC_pirate_captains.png",
+
+    "weight": 2,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_legitimacy": -1
+    }
+}

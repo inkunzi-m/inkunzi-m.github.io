@@ -1,0 +1,13 @@
+{
+    "name": "The Good Ending",
+    "description": "A speech helped a public figure boost there popularity.",
+    "image": "ED_great_man.png",
+
+    "weight": 30,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": 10
+    }
+}
