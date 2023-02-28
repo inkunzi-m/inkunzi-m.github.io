@@ -1,0 +1,13 @@
+{
+    "name": "Status Quo",
+    "description": "The land feels still. Every day, the sun rises, and every night, the sun sets. Life is quiet, but isn't that how we always wanted it? There's no better time than now to go outside and smell the roses...",
+    "image": "EUROPEAN_city_view.png",
+
+    "weight": 1,
+    "predicates": {
+
+    },
+    "effects": {
+
+    }
+}
