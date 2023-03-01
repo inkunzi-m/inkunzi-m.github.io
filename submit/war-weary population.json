@@ -1,0 +1,16 @@
+{
+    "name": "War-weary Population",
+    "description": "The nation and it's people are tired of war and the soldiers exhausted. It is becoming more and more difficult to force the people to fight for us.",
+    "image": "EUROPEAN_wounded_soldiers.png",
+
+    "weight": 30,
+    "predicates": {
+        "at_war": true,
+        "max_warsupport": 40,
+
+    },
+    "effects": {
+        "add_warsupport": -10,
+
+    }
+}
