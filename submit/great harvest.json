@@ -1,0 +1,14 @@
+{
+    "name": "A Great Harvest",
+    "description": "This year's harvests have been exceptional! Rarely in our nation's history has the earth brought forth so much of its bounty.",
+    "image": "EUROPEAN_farming.png",
+
+    "weight": 15,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_income": "25%",
+
+    }
+}

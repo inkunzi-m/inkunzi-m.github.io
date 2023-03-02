@@ -1,0 +1,15 @@
+{
+    "name": "Corrupt Local Noble",
+    "description": "A local noble has earned a reputation as a greedy and cruel person. The local populace is greatly upset.",
+    "image": "EUROPEAN_corruption.png",
+
+    "weight": 20,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": -10,
+        "add_revolt_sentiment": "10%",
+
+    }
+}

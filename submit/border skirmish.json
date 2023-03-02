@@ -1,0 +1,17 @@
+{
+    "name": "Border Skirmish",
+    "description": "The tension on our borders with a neighbouring nation have reached a critical point. The populace wishes to settle this once and for all.",
+    "image": "EUROPEAN_border_tension.png",
+
+    "weight": 10,
+    "predicates": {
+        "min_warsupport": 30,
+        "min_stability": 40,
+        "at_war": false,
+
+    },
+    "effects": {
+        "dummy": "Mod will roll you a dice depending on the ammount of nations you border and you gain a wargoal on said nation. If you choose to declare the war this session you gain 15 WS, if not you lose 15 WS."
+
+    }
+}

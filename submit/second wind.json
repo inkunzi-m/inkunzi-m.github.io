@@ -1,0 +1,16 @@
+{
+    "name": "Second Wind",
+    "description": "A new wave of hope and positive spirit has overcome our nation from the lowly peasants to the top leaders they still believe we can win this war.",
+    "image": "COC_disciplined_soldiers.png",
+
+    "weight": 30,
+    "predicates": {
+        "at_war": true,
+        "max_warsupport": 20,
+
+    },
+    "effects": {
+        "add_warsupport": 15,
+
+    }
+}
