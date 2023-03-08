@@ -73,10 +73,10 @@ Example:
 "max_legitimacy": "Absolute",
 "min_centralization": "None",
 "max_centralization": "Absolute",
-"either": {
+"either": [
     {"trait": "warlike"},
     {"trait": "isolationist"}
-}
+]
 ```
 
 <h1>Effects</h1>
