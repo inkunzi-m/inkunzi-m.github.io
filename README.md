@@ -98,12 +98,12 @@ Example:
 "add_religious_strength": 1.0,
 "add_religious_authority": 0.75,
 "add_units": {
-    {"Infantry": 2000},
-    {"Archers": 500}
+    "Infantry": 2000,
+    "Archers": 500
 }
 "add_ruler_stats": {
-    {"Rulership": 1},
-    {"Intrigue": 2}
+    "Rulership": 1,
+    "Intrigue": 2
 }
 ```
 
