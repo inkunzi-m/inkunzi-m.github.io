@@ -1,0 +1,13 @@
+{
+    "name": "A Nice Day to do Some Work",
+    "description": "The sun feels warm today, the wind feels cool. The people work extra hard today, together, and make today feel like one of a kind.",
+    "image": "AOW_peasants_bartering.png",
+
+    "weight": 15,
+    "predicates": {
+        "at_war": false
+    },
+    "effects": {
+        "add_stability": 15
+    }
+}

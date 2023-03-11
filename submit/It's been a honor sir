@@ -1,0 +1,14 @@
+{
+    "name": "It's Been a Honor Sir...",
+    "description": "Your royal guard holds strong has you look back on how you ruled the nation, it was bad and could have been better. You wait for the end to come from the people you used to rule over.",
+    "image": "AOW_DLC_revolt_huguenots.png",
+
+    "weight": 6,
+    "predicates": {
+        "max_legitimacy": "Low"
+    },
+    "effects": {
+        "set_ruler_condition": "Dead",
+        "add_revolt_sentiment": "-25%"
+    }
+}
