@@ -1,0 +1,18 @@
+{
+    "name": "Model Leader",
+    "description": "Your leader has solved problem after problem with no hiccups. The people love them. Their rule will impact the nation and it's people for years to come",
+    "image": "ED_great_man.png",
+
+    "weight": 50,
+    "predicates": {
+        "max_legitimacy": "Absolute"
+    },
+    "effects": {
+         "add_warsupport": 5,
+         "add_stability": 5,
+         "add_cultural_stability": 0.5,
+         "add_ruler_stats": {
+            "Rulership": 1
+        }
+    }
+}
