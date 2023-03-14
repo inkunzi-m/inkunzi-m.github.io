@@ -1,0 +1,23 @@
+{
+    "name": "Absolute Nation",
+    "description": "As the nation completes your tasks with no questions in their minds about you, you noticed that no one will ever question you again.",
+    "image": "BYZANTINE_advisor.png",
+
+    "weight": 15,
+    "predicates": {
+        "trait": "Absolute",
+        "min_stability": 75,
+        "min_warsupport": 75,
+        "min_legitimacy": "Absolute",
+        "max_centralization": "Absolute"
+    },
+    "effects": {
+        "add_income": "5%",
+        "add_revolt_sentiment": "-30%",
+        "add_cultural_stability": 1,
+        "add_ruler_stats": {
+            "Rulership": 1,
+            "Intrigue": 1
+        }
+    }
+}

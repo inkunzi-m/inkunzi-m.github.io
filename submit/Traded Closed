@@ -1,0 +1,13 @@
+{
+    "name": "Trade Closed",
+    "description": "Someone in our government is a stealing the profits of our trades and putting it into their own pockets. We must find the criminal.",
+    "image": "COC_sad_merchant.png",
+
+    "weight": 10,
+    "predicates": {
+        "max_centralization": "Low"
+    },
+    "effects": {
+        "dummy": "Permanently lose 1 trade slot till you find the criminal. (Tell and RP with a mod)"
+    }
+}

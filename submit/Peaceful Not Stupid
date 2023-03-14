@@ -1,0 +1,18 @@
+{
+    "name": "Peaceful, Not Stupid",
+    "description": "Just because we don't want war, doesn't mean we don't prepare for it.",
+    "image": "AOW_DLC_anshanti_firearms.png",
+
+    "weight": 30,
+    "predicates": {
+        "trait": "Peaceful"
+    },
+    "effects": {
+        "add_army_upkeep_cost": "-10%",
+        "add_income": "15%",
+        "add_units": {
+            "Infantry": 2000,
+            "Archers": 1000
+        }
+    }
+}

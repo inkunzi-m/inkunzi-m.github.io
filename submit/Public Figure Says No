@@ -1,0 +1,13 @@
+{
+    "name": "Public Figure Says no",
+    "description": "After a new law was passed, a very popularity figure just said no to the new law. The people are shocked but that's about it.",
+    "image": "AOW_DLC_african_social_gathering.png",
+
+    "weight": 50,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": -1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": " Egalitarian at Heart",
+    "description": "We were all born with the same flesh and blood as anyone else. Why don't we use that gift to better the world? Freedom of individuality is what makes us equals at the end.",
+    "image": "COC_muslim_scholar_writing.png",
+
+    "weight": 30,
+    "predicates": {
+        "trait": "Egalitarian"
+    },
+    "effects": {
+        "add_stability": 25,
+        "add_revolt_sentiment": "-5%"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Nothing Personal",
+    "description": "It must be in our blood to stab those in the back that call us friends. Can you blame us though? With the cards we were delt, I would have made the same choices all over again.",
+    "image": "CS_buddhism_bad.png",
+
+    "weight": 15,
+    "predicates": {
+        "trait": "Deceptive",
+        "min_warsupport": 60
+    },
+    "effects": {
+        "add_infamy": 1,
+        "dummy": "Break an alliance treaty and gain a war goal on them."
+    }
+}

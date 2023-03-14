@@ -1,0 +1,16 @@
+{
+    "name": "Public Disappointment",
+    "description": "The soon-to-be leader of our nation goes on a drunken rant on how the nation sucks and there's no saving it. The people are sicken by this. This couldn't be worst...",
+    "image": "EMP_conspiracy_eventpicture.png",
+
+    "weight": 5,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": -10,
+        "add_warsupport": -10,
+        "add_legitimacy": -1,
+        "add_revolt_sentiment": "10%"
+    }
+}

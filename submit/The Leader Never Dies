@@ -1,0 +1,16 @@
+{
+    "name": "THe Leader Never Dies",
+    "description": "The sickly leader of our beloved nation is now healthy again! Love live their rule!",
+    "image": "ESTATES_burgher_estate.png",
+
+    "weight": 30,
+    "predicates": {
+        "either": [
+            {"ruler_condition": "Ill/Injured"},
+            {"ruler_condition": "Bedridden"}
+        ] 
+    },
+    "effects": {
+        "set_ruler_condition": "Fine"
+    }
+}
