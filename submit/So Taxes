@@ -1,0 +1,18 @@
+{
+    "name": "So Taxes... Am I Right???",
+    "description": "The very chaotic way we run are government has caught up to us. We have no control over anything any more.",
+    "image": "AOW_DLC_tolls_ship_cargo.png",
+
+    "weight": 20,
+    "predicates": {
+        "trait": "Chaotic",
+        "max_legitimacy": "Medium",
+        "max_stability": 50
+    },
+    "effects": {
+        "add_stability": -10,
+        "add_income": -5000,
+        "add_cultural_stability": -0.5,
+        "dummy": "Reroll random taxes for the nation"
+    }
+}

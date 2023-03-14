@@ -1,0 +1,13 @@
+{
+    "name": "One in a Million",
+    "description": "After a hard month of research, the government made a leap forward in tech. A new era is here.",
+    "image": "EUROPEAN_big_book.png",
+
+    "weight": 1,
+    "predicates": {
+        "min_stability": 100
+    },
+    "effects": {
+        "dummy": "Gain one point of research this week"
+    }
+}

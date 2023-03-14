@@ -1,0 +1,20 @@
+{
+    "name": "The People Stand Strong",
+    "description": "As enemies on our door step, they should be rebranded as fools for trying to attack us. With the people united, the nation will never fail or fall.",
+    "image": "ED_missionares.png",
+
+    "weight": 20,
+    "predicates": {
+        "at_war": true,
+        "min_stability": 60,
+        "min_warsupport": 60,
+        "min_legitimacy": "High"
+    },
+    "effects": {
+        "add_army_upkeep_cost": "-10%",
+        "add_revolt_sentiment": "-10%",
+        "add_units": {
+            "Infantry": 2000
+    }
+    }
+}
