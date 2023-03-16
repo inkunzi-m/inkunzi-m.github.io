@@ -1,0 +1,15 @@
+{
+    "name": "Independence is Here to Stay",
+    "description": "The people of the world will never know what hit them when we unite under one independent flag.",
+    "image": "EUROPEAN_city_view.png",
+
+    "weight": 35,
+    "predicates": {
+        "trait": "Warlike",
+        "min_stability": 25
+    },
+    "effects": {
+        "add_warsupport": 10,
+        "add_cultural_stability": 0.5
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Just on My Little Island",
+    "description": "The world is a crazy place, that's why we don't even go out there. Let them fight and trade, we have everything right here.",
+    "image": "ED_aztec_pyramid.png",
+
+    "weight": 40,
+    "predicates": {
+        "trait": "Isolationist"
+    },
+    "effects": {
+        "add_stability": 10
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Fuck the Gods",
+    "description": "The Gods have done nothing for us, therefore we'll do nothing for them.",
+    "image": "MUSLIM_liberum_veto.png",
+
+    "weight": 30,
+    "predicates": {
+        "trait": "Secular"
+    },
+    "effects": {
+        "add_religious_authority": -0.25
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Freedom For All",
+    "description": "For the people in chains, with leaders in high towers made in ivory, with enforcers around every corner. We, the people with true freedom, have come to save everyone within our power!",
+    "image": "AMERICAN_DREAM_declaration_independence.png",
+
+    "weight": 10,
+    "predicates": {
+        "trait": "Freedom",
+        "min_stability": 90,
+        "min_warsupport": 55
+    },
+    "effects": {
+        "add_warsupport": 45,
+        "add_income": "5%",
+        "add_units": {
+            "Infantry": 2000
+        }
+    }
+}
