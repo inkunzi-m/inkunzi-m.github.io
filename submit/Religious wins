@@ -1,0 +1,14 @@
+{
+    "name": "Religious Wins",
+    "description": "Our Religious ways wins the will of the people.",
+    "image": "AOW_DLC_animist_religious_ceremony.png",
+
+    "weight": 20,
+    "predicates": {
+        "trait": "Religious"
+    },
+    "effects": {
+        "add_religious_authority": 0.75,
+        "dummy": "If religious state, add 15 stability."
+    }
+}

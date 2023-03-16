@@ -10,6 +10,6 @@
     },
     "effects": {
         "add_infamy": 1,
-        "dummy": "Break an alliance treaty and gain a war goal on them."
+        "dummy": "Break an alliance treaty and gain a war goal on them OR break a trade deal and gain $15,000. You cannot make the same diplomatic treaty with them for 2 sessions after this one."
     }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "The Money Flows, Therefore We Grow",
+    "description": "Our people are happy with all of the goods we get from the other people in the world. Why should we stop now?",
+    "image": "AMERICAN_DREAM_fur_trade.png",
+
+    "weight": 25,
+    "predicates": {
+        "trait": "Mercantile"
+    },
+    "effects": {
+        "dummy": "For every trade deal you have, gain +2 stability"
+    }
+}
