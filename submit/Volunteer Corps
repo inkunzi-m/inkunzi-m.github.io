@@ -1,0 +1,15 @@
+{
+    "name": "The Volunteer Corps",
+    "description": "A group of brave men and women have volunteered all at once. We made a whole new army group just around them.",
+    "image": "ED_conquistadors.png",
+
+    "weight": 30,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_units": {
+            "Infantry": 2000
+    }
+}
+}

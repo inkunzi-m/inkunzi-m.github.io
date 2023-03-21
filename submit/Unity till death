@@ -1,0 +1,15 @@
+{
+    "name": "Unity till Death",
+    "description": "With the death of the leader near, we know one thing. Death never ends a life truly great to the people they served.",
+    "image": "COS_diet.png",
+
+    "weight": 20,
+    "predicates": {
+        "trait": "Unity",
+        "min_ruler_age": 70
+    },
+    "effects": {
+        "add_stability": 25,
+        "add_revolt_sentiment": "-10%"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Flu Season",
+    "description": "A sickness has hit your leader. They don't seem too well. It may take a little bit to get over it. We hope...",
+    "image": "EUROPEAN_king_sick_in_bed.png",
+
+    "weight": 20,
+    "predicates": {
+
+    },
+    "effects": {
+        "set_ruler_condition": "Sick"
+    }
+}

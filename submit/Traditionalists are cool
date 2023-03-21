@@ -1,0 +1,13 @@
+{
+    "name": "Traditionalists Helped the Government",
+    "description": "The Traditionalists helped passed a law to up hold the way of life on our nation.",
+    "image": "ED_nothing_found.png",
+
+    "weight": 20,
+    "predicates": {
+        "trait": "Traditionalists"
+    },
+    "effects": {
+        "add_cultural_stability": 0.25
+    }
+}
