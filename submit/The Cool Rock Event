@@ -1,0 +1,17 @@
+{
+    "name": "A Cool Rock",
+    "description": "As your leader walked on their normal trail, they found this cool rock on the ground. The rock was small enough to put in the pocket. The rock was grey with some blue tint to it. It made the leader feel better about themselves.",
+    "image": "MOH_meritocracy.png",
+
+    "weight": 20,
+    "predicates": {
+
+    },
+    "effects": { 
+        "add_ruler_stats": {
+        "Rulership": 1
+    }
+    }
+    
+    
+}

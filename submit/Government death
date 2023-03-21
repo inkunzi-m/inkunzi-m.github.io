@@ -1,0 +1,14 @@
+{
+    "name": "Government Death",
+    "description": "Someone has killed a important figure in government last night. They help keep the nation together in bad times. Now, we're in worse times.",
+    "image": "EUROPEAN_death_of_heir.png",
+
+    "weight": 20,
+    "predicates": {
+
+    },
+    "effects": {
+        "add_stability": -5,
+        "add_revolt_sentiment": "10%"
+    }
+}

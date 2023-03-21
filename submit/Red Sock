@@ -1,0 +1,13 @@
+{
+    "name": "Red Sock",
+    "description": "Red Sock",
+    "image": "TR_peasants_on_steppes.png",
+
+    "weight": 2,
+    "predicates": {
+
+    },
+    "effects": {
+        "dummy": "Red Sock"
+    }
+}
