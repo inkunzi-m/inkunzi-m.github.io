@@ -101,15 +101,22 @@ Example:
 "add_units": {
     "Infantry": 2000,
     "Archers": 500
-}
+},
 "add_ruler_stats": {
     "Rulership": 1,
     "Intrigue": 2
-}
+},
 "add_defensive_advantage": 1.0,
 "add_offensive_advantage": 1.0,
 "add_casualties": -2000,
 "add_manpower": 5000,
+```
+
+<p>You can also randomize outcomes, like so:</p>
+
+```json
+"add_stability": {"randint": [15, 30]},
+"add_income": {"randpercentstr": [-50, 50]}
 ```
 
 <h1>Event Examples</h1>
