@@ -91,7 +91,6 @@ Example:
 "add_income": "15%",
 "add_legitimacy": 1,
 "add_centralization": -1,
-"add_army_upkeep_cost": "10%",
 "add_revolt_sentiment": "10%",
 "set_ruler_condition": "Sick",
 "add_cultural_stability": 0.5,
@@ -105,6 +104,10 @@ Example:
     "Rulership": 1,
     "Intrigue": 2
 }
+"add_defensive_advantage": 1.0,
+"add_offensive_advantage": 1.0,
+"add_casualties": -2000,
+"add_manpower": 5000,
 ```
 
 <h1>Event Examples</h1>
