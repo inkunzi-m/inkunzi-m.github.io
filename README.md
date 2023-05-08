@@ -73,6 +73,8 @@ Example:
 "max_legitimacy": "Absolute",
 "min_centralization": "None",
 "max_centralization": "Absolute",
+"player_id": 39820732973,
+"independence_level": "Vassal",
 "either": [
     {"trait": "warlike"},
     {"trait": "isolationist"}
